@@ -1,16 +1,14 @@
-EVOFIT - ATUALIZACAO V4
+EVOFIT V5 — BIOIMPEDÂNCIA E MEDIDAS AMPLIADAS
 
-Esta atualizacao inclui fichas A-E pre-cadastradas, substituicoes, registro por serie (carga, repeticoes e tempo), observacoes, conclusao, cronometro, historico, calendario, medidas, comparacao e exportacao JSON.
+Atualização do Evofit: importação de imagem de ficha de bioimpedância com OCR (leitura de texto no navegador), campos ampliados para composição corporal e medidas corporais, e conferência antes de salvar.
 
-ATENCAO: o site GitHub Pages e publico. Os registros ficam no armazenamento local do navegador/dispositivo. Evite dados sensiveis e exporte backups periodicamente.
+INSTALAÇÃO:
+1. Extraia este ZIP.
+2. No repositório GitHub Evofit, Add file > Upload files.
+3. Envie os arquivos desta pasta para a raiz do repositório (não envie a pasta nem o ZIP).
+4. Commit changes.
+5. Após publicação, abra https://lemos5natalia.github.io/Evofit/?v=5
 
-INSTALACAO:
-1. Descompacte este arquivo.
-2. Abra o repositorio GitHub Evofit.
-3. Add file > Upload files.
-4. Envie os arquivos desta pasta para a raiz do repositorio, substituindo os arquivos com mesmo nome.
-5. Clique Commit changes.
-6. Aguarde alguns minutos e abra no Safari: https://lemos5natalia.github.io/Evofit/?v=4
-7. Se o aplicativo da tela inicial continuar mostrando a versao antiga, feche-o completamente, abra o link acima no Safari e atualize. Pode ser necessario remover e adicionar o atalho novamente.
+OCR: requer conexão para carregar a biblioteca Tesseract.js do CDN. A imagem é processada localmente no navegador. OCR pode cometer erros: revise os campos e compare com o original antes de salvar. Nesta versão, importação de imagem JPG/PNG; PDF não suportado.
 
-Os dados anteriores de medidas (fitnessEntries) e registros de treino (evofitWorkouts) sao mantidos quando existentes no mesmo navegador. A atualizacao nao sincroniza dados entre dispositivos.
+Dados: registros são armazenados no navegador/dispositivo. Faça backup regularmente. Não use dados sensíveis. GitHub Pages é público e o app não tem autenticação.
