@@ -1,0 +1,16 @@
+EVOFIT - ATUALIZACAO V4
+
+Esta atualizacao inclui fichas A-E pre-cadastradas, substituicoes, registro por serie (carga, repeticoes e tempo), observacoes, conclusao, cronometro, historico, calendario, medidas, comparacao e exportacao JSON.
+
+ATENCAO: o site GitHub Pages e publico. Os registros ficam no armazenamento local do navegador/dispositivo. Evite dados sensiveis e exporte backups periodicamente.
+
+INSTALACAO:
+1. Descompacte este arquivo.
+2. Abra o repositorio GitHub Evofit.
+3. Add file > Upload files.
+4. Envie os arquivos desta pasta para a raiz do repositorio, substituindo os arquivos com mesmo nome.
+5. Clique Commit changes.
+6. Aguarde alguns minutos e abra no Safari: https://lemos5natalia.github.io/Evofit/?v=4
+7. Se o aplicativo da tela inicial continuar mostrando a versao antiga, feche-o completamente, abra o link acima no Safari e atualize. Pode ser necessario remover e adicionar o atalho novamente.
+
+Os dados anteriores de medidas (fitnessEntries) e registros de treino (evofitWorkouts) sao mantidos quando existentes no mesmo navegador. A atualizacao nao sincroniza dados entre dispositivos.
