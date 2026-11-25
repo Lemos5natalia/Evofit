@@ -1,0 +1,9 @@
+{
+  "name": "Minha Evolução Fitness",
+  "short_name": "Evolução",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f3f7",
+  "theme_color": "#8b5cf6",
+  "description": "Diário pessoal de treinos e evolução fitness."
+}
