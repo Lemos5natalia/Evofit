@@ -12,3 +12,6 @@ INSTALAÇÃO:
 OCR: requer conexão para carregar a biblioteca Tesseract.js do CDN. A imagem é processada localmente no navegador. OCR pode cometer erros: revise os campos e compare com o original antes de salvar. Nesta versão, importação de imagem JPG/PNG; PDF não suportado.
 
 Dados: registros são armazenados no navegador/dispositivo. Faça backup regularmente. Não use dados sensíveis. GitHub Pages é público e o app não tem autenticação.
+
+
+V6: leitura OCR mais conservadora. Só preenche automaticamente valores quando rótulo e número estão na mesma linha e deixa ambiguidades em branco. Sempre revisar.
